@@ -1,0 +1,67 @@
+.button {
+  border:none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  &_celeste {
+      color:$celestedark;
+      border-color:$celeste;
+      transition: .35s ease-in-out;
+      &:hover {
+          color:$white;
+          background: $celestedark;
+          box-shadow: 0 0 5px $celestedark;
+      }
+  }
+  &_celeste-2 {
+    color:$celestedark;
+    border-color:$celestedark;
+    transition: .35s ease-in-out;
+    &:hover {
+        color:$white;
+        background: $celestedark;
+        box-shadow: 0 0 5px $celestedark;
+  }
+}
+      
+  &_sm {
+      font-size:16px;
+      font-weight: 500;
+      height:39px;
+      padding:0 15px;
+      background: $white;
+      border:2px solid;
+      
+  }
+  &_pill {
+      border-radius: 50px;
+  }
+  &_full {
+      font-size:16px;
+      font-weight: 500;
+      height:39px;
+      padding:0 15px;
+      background: $white;
+      border:2px solid;
+      width:50%;
+  }
+
+&_btn { 
+    height:40px;
+    margin-top: 65px;
+    padding:0 30px; 
+    background:$greenlight; 
+    border-radius: 10px; 
+    color:$celestedark; 
+    font-size:20px; 
+    font-family: $lobster;
+    filter: drop-shadow(2px 2px 2px $graylight)
+}
+}
+
+a.button {
+
+    text-decoration: none;
+}
